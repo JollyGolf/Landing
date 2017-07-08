@@ -29,11 +29,11 @@
 #main_nav{
 	font-family: DaysSansBlack;
 	color: #465054;
-	font-size: 15pt;
+	font-size: 17pt;
 	font-style: bolder;
 	text-align: center;
-	letter-spacing: 5px;
-	padding: 3em 0;
+	letter-spacing: 2px;
+	padding: 2.5em 0;
   	text-align: right;
   	margin-right: 100px;
 }
