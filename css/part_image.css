@@ -1,0 +1,61 @@
+.part-image {
+  height: 1350px;
+  background-image: url(../../image/image_background.jpg);
+  margin-left: -8px;
+  margin-top: -8px;
+  background-repeat: no-repeat;
+  position: absolute;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
+.first-sent {
+  font-family: FuturisExtraBold;
+  color: white;
+  font-size: 70pt;
+  margin-top: 400px;
+  position: relative;
+  padding-bottom: 38px;
+}
+.secont-sent {
+  font-family: Calibri light;
+  font-size: 30pt;
+  padding-left: 375px;
+  padding-right: 375px;
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 70px;
+  letter-spacing: 2px;
+}
+.button-contact-us {
+  font-family: Calibri light;
+  border: none;
+  background-color: white;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  margin-right: 40px;
+  font-size: 25pt;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #465054;
+}
+.button-purchase-now {
+  font-family: Calibri light;
+  border: none;
+  background-color: white;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  margin-left: 40px;
+  font-size: 25pt;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #465054;
+}
+.button-contact-us:hover,.button-purchase-now:hover {
+  background-color: #40c1da;
+  color: white;
+}
+/* #40c1da; */
