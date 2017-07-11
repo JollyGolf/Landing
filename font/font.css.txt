@@ -1,0 +1,8 @@
+@font-face {
+  font-family: BrockScript;
+  src: url(BrockScript.TTF);
+}
+@font-face {
+  font-family: DaysSansBlack;
+  src: url(DaysSansBlack.otf);
+}
