@@ -11,7 +11,7 @@
   background-size: 100%;
 }
 
-.first-sent {
+.first-sentence {
   font-family: FuturisExtraBold;
   color: white;
   font-size: 70pt;
@@ -20,7 +20,7 @@
   padding-bottom: 40px;
 }
 
-.secont-sent {
+.second-sentence {
   font-family: Calibri light;
   font-size: 30pt;
   padding-left: 375px;
@@ -31,7 +31,7 @@
   letter-spacing: 2px;
 }
 
-.button-contact-us {
+button {
   font-family: Calibri light;
   border: none;
   background-color: white;
@@ -45,21 +45,7 @@
   color: #465054;
 }
 
-.button-purchase-now {
-  font-family: Calibri light;
-  border: none;
-  background-color: white;
-  width: 400px;
-  height: 100px;
-  position: relative;
-  margin-left: 40px;
-  font-size: 25pt;
-  font-weight: bolder;
-  letter-spacing: 2px;
-  color: #465054;
-}
-
-.button-contact-us:hover,.button-purchase-now:hover {
+button:hover {
   background-color: #40c1da;
   color: white;
 }
