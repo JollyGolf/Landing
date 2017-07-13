@@ -1,4 +1,4 @@
-.part-image {
+.greeting {
   height: 1350px;
   background-image: url(../../image/image_background.jpg);
   margin-left: -8px;
@@ -11,7 +11,7 @@
   background-size: 100%;
 }
 
-.first-sentence {
+.introduction-sentence-in-greeting {
   font-family: FuturisExtraBold;
   color: white;
   font-size: 70pt;
@@ -20,7 +20,7 @@
   padding-bottom: 40px;
 }
 
-.second-sentence {
+.description-sentence-in-greeting {
   font-family: Calibri light;
   font-size: 30pt;
   padding-left: 375px;
@@ -31,7 +31,7 @@
   letter-spacing: 2px;
 }
 
-button {
+.button {
   font-family: Calibri light;
   border: none;
   background-color: white;
@@ -45,7 +45,7 @@ button {
   color: #465054;
 }
 
-button:hover {
+.button:hover {
   background-color: #40c1da;
   color: white;
 }
