@@ -1,11 +1,11 @@
-.part-step {
+.steps {
   height: 980px;
   padding-top: 100px;
   margin-top: -8px;
   margin-left: -8pt;
 }
 
-.button-step {
+.we-are-accede {
   width: 700px;
   height: 100px;
   margin: 0px auto;
@@ -20,7 +20,7 @@
   padding-top: 0.6em;
 }
 
-.button-step:hover {
+.we-are-accede:hover {
   background-color: white;
   outline: 5px solid #333333;
   color: #333333;
@@ -35,7 +35,7 @@
   border-radius: 10px;
 }
 
-.main-sentence-step {
+.main-description {
   font-family: Calibri light;
   color: #777777;
   font-size: 25pt;
@@ -50,25 +50,16 @@
 
 .block-all-step {
   margin-top: 5em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.first-step {
-  width: 700px; 
-  float: left;
-  display: inline-block;
-  margin-left: 8em;
-}
-
-.second-step {
-  width: 700px;
-  float: left;
-  margin-left: 8em;
-}
-
-.third-step {
-  width: 700px;
-  float: left;
-  margin-left: 8em;
+.step {
+  margin: auto;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 .number {
@@ -84,7 +75,7 @@
   color: #333333;
 }
 
-.sentence-step {
+.description {
   font-family: Calibri light;
   color: #777777;
   font-size: 25pt;
