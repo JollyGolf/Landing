@@ -1,0 +1,149 @@
+body {
+  margin: 0px 0px;
+}
+
+.slider {
+  display: flex;
+  height: 1260px;
+  background-image: url(../image/city.jpg);
+  background-attachment: fixed;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.our-mission {
+  width: 1500px;
+  height: 500px;
+  background-image: url(../image/transparency.png);
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-in-our-mission {
+  font-size: 100pt;
+}
+
+.fa-diamond {
+  color: #f2f3f2;
+  margin: auto;
+}
+
+.title-our-mission {
+  font-family: DaysSansBlack;
+  font-size: 30pt;
+  color: #ffffff;
+  margin: auto;
+}
+
+.background-big-circle {
+  background-image: url(../image/transparency.png);
+  border-radius: 10000px;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  margin: auto;
+}
+
+.white-line {
+	background-color: white;
+	width: 140px;
+	height: 5px;
+	margin:  auto;
+}
+
+.description-our-mission {
+	font-family: Calibri light;
+	font-size: 25pt;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	margin: auto;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.achievement {
+  width: 100%;
+  height: 470px;
+  align-self: flex-end;
+  background-image: url(../image/transparency.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.one-achievment {
+  width: 525px;
+  height: 255px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.background-circle {
+  background-image: url(../image/transparency.png);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  margin: auto;
+}
+
+.fa-smile-o {
+  color: #f2f3f2;
+  margin: auto;
+}
+
+.fa-trophy {
+  color: #f2f3f2;
+  margin: auto;
+}
+
+.fa-download {
+  color: #f2f3f2;
+  margin: auto;
+}
+
+.fa-envelope-o {
+  color: #f2f3f2;
+  margin: auto;
+}
+
+.quantity-and-name-achievement {
+  width: 350px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.quantity-achievement {
+  font-family: DaysSansBlack;
+  font-size: 45pt;
+  color: #ffffff;
+  text-align: left;
+}
+
+.name-achievement {
+  font-family: Trebuchet MS;
+  font-size: 20pt;
+  font-weight: bolder;
+  color: #ffffff;
+  text-align: left;
+  font-weight: lighter;
+}
