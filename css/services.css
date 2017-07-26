@@ -1,0 +1,117 @@
+.services {
+  display: flex;
+  height: 1560px;
+  background-color: #f7f7f7;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-light-blue {
+  color: #40c1da;
+}
+
+.association-into-block {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+}
+
+.accede-services {
+ display: flex;
+ margin: auto;
+ width: 700px;
+ height: 100px;
+ background-color: #40c1da;
+ outline: 5px solid #40c1da;
+ outline-offset: 5px;
+ font-family: FuturisExtraBold;
+ font-size: 40pt;
+ color: white;
+}
+
+.accede-services:hover {
+  background-color: white;
+  outline: 5px solid #333333;
+  color: #333333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.title-accede-services {
+  margin: auto;
+}
+
+.blue-line {
+  background-color: #42c0d9;
+  width: 140px;
+  height: 5px;
+  margin:  auto;
+}
+
+.description-accede-services {
+  font-family: Calibri light;
+  font-size: 25pt;
+  font-weight: bolder;
+  color: #777777;
+  text-align: center;
+  margin: auto;
+  margin-left: 17em;
+  margin-right: 17em;
+}
+
+.block-services {
+  width: 2340px;
+  height: 900px;
+  border: 2px solid #eeeeee;
+  background-color: #eeeeee;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.item-service {
+  width: 780px;
+  height: 450px;
+  background-color: white;
+  outline: 1px solid #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-service {
+  font-size: 26pt;
+  font-family: Arial black;
+  font-weight: bolder;
+  color: #333333;
+  letter-spacing: -1px;
+}
+
+.description-service {
+  font-family: Calibri light;
+  color: #777777;
+  font-size: 25pt;
+  font-weight: bolder;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+}
+
+.item-service:hover {
+  background-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.item-service:hover .title-service {
+  color: white;
+}
+
+.item-service:hover .description-service {
+  color: #BBBBBB;
+}
